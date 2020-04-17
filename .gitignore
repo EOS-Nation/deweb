@@ -4,7 +4,7 @@
 !.eslintrc.js
 dist
 .vscode
-!examples
+!examples/basic.js
 
 # Logs
 logs
