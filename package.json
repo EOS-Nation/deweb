@@ -1,0 +1,39 @@
+{
+  "name": "deweb",
+  "version": "0.0.1",
+  "description": "deWeb Library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "Denis Carriere <@DenisCarriere>",
+  "contributors": [],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run test && npm run build",
+    "test": "jest --coverage",
+    "posttest": "eslint . --ext .ts",
+    "docs": "tsc --target ES2019 && documentation readme dist/**.js -s API"
+  },
+  "repository": "git@github.com:EOS-Nation/deweb.git",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "devDependencies": {
+    "@types/jest": "*",
+    "@types/long": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-plugin-jest": "*",
+    "jest": "*",
+    "ts-jest": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "long": "^4.0.0"
+  }
+}
