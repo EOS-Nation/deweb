@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/EOS-Nation/deweb.svg?branch=master)](https://travis-ci.org/EOS-Nation/deweb)
 [![npm version](https://badge.fury.io/js/deweb.svg)](https://badge.fury.io/js/deweb)
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/EOS-Nation/eos-common/master/LICENSE)
+[![Try on RunKit](https://badge.runkitcdn.com/deweb.svg)](https://npm.runkit.com/deweb)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/EOS-Nation/deweb/master/LICENSE)
 
 > **deWeb** common library used for Typescript
 

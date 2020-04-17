@@ -1,11 +1,13 @@
 {
   "name": "deweb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "deWeb Library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "runkitExampleFilename": "examples/basic.js",
   "files": [
-    "dist"
+    "dist",
+    "examples"
   ],
   "author": "Denis Carriere <@DenisCarriere>",
   "contributors": [],
