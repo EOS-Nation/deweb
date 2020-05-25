@@ -13,7 +13,7 @@ import Long from "long";
  * //=> "8945370747656800747"
  */
 export function stringToHash(str: string): string {
-    let hash = Long.fromInt( 5381 );
+    let hash = Long.fromInt( 5381, true );
 
     for ( const char of str.split("")) {
         hash = hash.shiftLeft( 5 ).add( hash ).add( char.charCodeAt(0) );
